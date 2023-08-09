@@ -1,0 +1,20 @@
+@import '../../styles/mixins.scss';
+
+.list {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 25%); 
+  gap: 20px;
+  
+  @include onTablet {
+    grid-template-columns: repeat(2, 40%); 
+    gap: 10px; 
+  }
+
+  @include onMobile {
+    grid-template-columns: repeat(1, 60%); 
+  }
+
+
+
+}

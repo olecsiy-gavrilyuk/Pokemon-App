@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  &__title {
+    width: 50%;
+    border: 1px solid black;
+    font-size: 48px;
+    text-align: center;
+  }
+}

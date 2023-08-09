@@ -1,0 +1,54 @@
+.cardInfo {
+  position: fixed;
+  max-width: 300px;
+  border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+
+  &__square {
+      width: 210px;
+      height: 120px;
+      border: 1px solid black;
+  }
+
+  &__name {
+    padding: 10px;
+    text-align: center;
+  }
+
+  &__statsInfo {
+    display: flex;
+  }
+
+  &__statsList {
+    border: 1px solid black;
+  }
+
+  &__listItem {
+    padding: 5px;
+    text-align: center;
+  }
+
+  &__listBorder:not(:last-child) {
+    border-bottom: 1px solid black;
+  }
+
+  &__textType {
+    padding: 2px;
+  }
+
+  &__listNumber {
+    min-width: 102px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  &__listItemNumber {
+    padding: 5px 2px;
+    text-align: center;
+  }
+}

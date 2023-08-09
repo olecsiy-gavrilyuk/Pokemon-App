@@ -1,0 +1,14 @@
+.listBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50vw;
+  margin: 10px 10px;
+  height: 90vh;
+
+  &__buttonLoad {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
