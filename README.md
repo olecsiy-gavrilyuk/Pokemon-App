@@ -43,4 +43,3 @@ npm start
 ## Conclusion
 
 Pokemon App is an exciting project that allows you to explore the world of Pokémon and their characteristics. Utilizing modern web development technologies, this project provides an opportunity to enjoy a game-rich environment, rich in the diversity of Pokémon and their properties.
-Цей текст ви можете скопіювати і вставити в свій файл README.md на 
